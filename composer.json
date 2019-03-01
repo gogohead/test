@@ -1,7 +1,7 @@
 {
     "name": "gogohead/test",
     "description": "test",
-    "type": "composer-plugin",
+    "type": "library",
     "keywords": ["test"],
     "authors": [
         {
