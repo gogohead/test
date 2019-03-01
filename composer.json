@@ -1,0 +1,33 @@
+{
+    "name": "gogohead/test",
+    "description": "test",
+    "type": "composer-plugin",
+    "keywords": ["test"],
+    "authors": [
+        {
+            "name": "gogohead",
+            "homepage": "http://www.nashengcm.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "support": {
+        "email": "gogohead@foxmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "gogohead\\test\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
